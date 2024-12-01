@@ -1,2 +1,6 @@
 Intel, AMD - Need to pay
 Graviton(ARM)- Aws own processor
+govcloud(us-west Region) -reserved for us government and any authorized contracts
+Most Cheap Region- North Region because more availability Zones
+Production- less latency
+stage- high latency no problem
