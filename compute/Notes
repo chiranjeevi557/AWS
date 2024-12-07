@@ -1,2 +1,7 @@
 Ec2
-In Cloud anything start with small either compute,storage and expand it based on the usage
+In Cloud anything start with small either compute,storage and expand it based on the usage 
+Despite being a pay-as-you-go model, there are nuances like the one you've experienced: 
+provisioned resources (like an allocated but unused EBS volume or a running EC2 instance) are billed regardless of their active use because they are reserved for your use and thus incur costs. 
+To manage costs effectively, it's important to actively manage these resources, shutting down or resizing them as needed to align with your actual usage.
+Make sure ur instance and storage need to present in the same region
+Suppose if ur storage and ec2 present in diff availability zone u need to take snapshot of that storage and need to add in ec2 instance availability zone
